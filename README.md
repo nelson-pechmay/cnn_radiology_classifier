@@ -30,7 +30,7 @@ Even though the trained model shows slight overfitting, the obtained performance
 |  macro avg  |    0.98   |  0.98  |   0.98   |  1563|
 |weighted avg |    0.98   |  0.98  |   0.98   |  1563|
 
-On the classification report above, the image labels are encoded by numbers: 0-covid19, 1-normal, 2-pneumonia. However, the confusion matrix (without normalization) can help better to visualize the number of miss-classified cases on the test dataset. For example, 21 were classified with "pneoumonia", when they were actually "normal". That is, around 4 % from a sample of 1563, as can be readed from the normalized confusion matrix.
+On the classification report above, the image labels are encoded by numbers: 0-covid19, 1-normal, 2-pneumonia. However, the confusion matrix (without normalization) can help better to visualize the number of miss-classified cases on the test dataset. For example, 21 were classified with "normal", when they were actually "pneumonia". That is, around 4 % from a sample of 1563, as can be readed from the normalized confusion matrix.
 
 Confusion Matrix              |  Confusion Matrix (normalized)
 :----------------------------:|:--------------------------------------:
